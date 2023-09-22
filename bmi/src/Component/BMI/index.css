@@ -1,0 +1,101 @@
+/* index.css */
+
+/* Center the entire calculator */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+/* Container styles for the calculator */
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+/* Header styles */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Input container styles */
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+  font-size: 16px;
+  font-weight: bold;
+  flex: 1;
+  text-align: left;
+}
+
+/* Value styles */
+.value {
+  font-weight: normal;
+}
+
+/* Input styles */
+input[type="text"] {
+  width: 50px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Button container styles */
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Button styles */
+.button {
+  width: 100px;
+  height: 40px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Result container styles with border */
+.result {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/* Interpretation styles */
+p {
+  font-size: 16px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .input-container {
+    flex-direction: column;
+  }
+}
